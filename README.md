@@ -9,7 +9,7 @@ opentracker – An open and free bittorrent tracker
 docker run --name opentracker -p 6969:6969 sebastiansasu/opentracker:v0.0.1
 ```
 
-Above build runs on `amd64` and/or `arm64` architectures
+Image available for `amd64` and `arm64` architectures
 
 ## Build it yourself
 
@@ -23,4 +23,4 @@ docker buildx build \
   --tag opentracker .
 ```
 
-Want to customize opentracker? Check out it's [origins](https://erdgeist.org/arts/software/opentracker/)
+Want to customize opentracker on docker? Check out it's [origins](https://erdgeist.org/arts/software/opentracker/) and change dockerfile accordingly
